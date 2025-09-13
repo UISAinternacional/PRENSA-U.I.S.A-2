@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRENSA UISA-1</title>
+
+    <!-- Etiquetas Open Graph mejoradas para vista previa en redes sociales -->
+    <meta property="og:title" content="🌱 La ciencia y la espiritualidad confirman: las plantas responden a nuestras palabras, música y energía”" />
+    <meta property="og:description" content="Un experimento demuestra que los comentarios positivos fortalecen a las plantas, mientras que los negativos las debilitan. La música, las frecuencias y la interconexión de los bosques revelan una red viva que nos enseña sobre energía y unidad." />
+    <meta property="og:image" content="https://i.ibb.co/gb3wwyQC/Dise-o-sin-t-tulo-1.png" />
+    <meta property="og:image:type" content="https://i.ibb.co/gb3wwyQC/Dise-o-sin-t-tulo-1.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://uisainternacional.github.io/PRENSA-U.I.S.A-1/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="Unidad Internacional del Saber y Asociados" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="🌱 La ciencia y la espiritualidad confirman: las plantas responden a nuestras palabras, música y energía”" />
+    <meta name="twitter:description" content="Un experimento demuestra que los comentarios positivos fortalecen a las plantas, mientras que los negativos las debilitan. La música, las frecuencias y la interconexión de los bosques revelan una red viva que nos enseña sobre energía y unidad." />
+    <meta name="twitter:image" content="https://i.ibb.co/LDtqTmRT/Dise-o-sin-t-tulo-20.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom, #ffffff, #f1f1f1);
+            color: #111;
+            padding-top: 120px;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-container img.logo {
+            max-height: 50px;
+            margin-right: 15px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            font-family: 'Merriweather', serif;
+            margin: 0;
+            font-weight: 700;
+            animation: fadeInDown 2s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #ffffffcc;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid #ccc;
+            text-align: justify;
+            line-height: 1.6;
+            transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        section h1, section h2 {
+            font-family: 'Merriweather', serif;
+            font-weight: bold;
+            color: #333;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+            perspective: 1000px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #000;
+            border-radius: 12px;
+            transition: opacity 2.5s ease-in-out, transform 2.5s ease-in-out;
+            opacity: 0;
+            transform: rotateY(-15deg) scale(0.95);
+        }
+
+        .image-container img.visible {
+            opacity: 1;
+            transform: rotateY(0deg) scale(1);
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 6px rgba(0,0,0,0.3);
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.4rem;
+            }
+
+            section {
+                padding: 30px 15px;
+            }
+
+            footer {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <img src="https://i.ibb.co/yN93Dk7/Dise-o-sin-t-tulo-6.jpg" alt="Logo UISA" class="logo" />
+        <h1>PRENSA U.I.S.A · Crónicas · Artículos · Boletín ·</h1>
+    </div>
+</header>
+
+<!-- Aquí continúa el contenido de la página -->
+
+</body>
+</html>
+
+
+<section>
+    <h1>🌱 La ciencia y la espiritualidad confirman: las plantas responden a nuestras palabras, música y energía”</h1>
+
+    <div class="image-container">
+        <img src="https://i.ibb.co/gb3wwyQC/Dise-o-sin-t-tulo-1.png" alt="..." id="mainImage">
+    </div>
+<p>Por Julio Pablo kleterkoff | 13 de Septiembre de 2025</p>
+    <p>En los últimos años, distintos experimentos han demostrado algo que las tradiciones ancestrales ya intuían: las plantas no solo son organismos vivos, también son sensibles a la energía que las rodea. La ciencia moderna comienza a confirmar que palabras, sonidos y vibraciones influyen de manera directa en su crecimiento, vitalidad y conexión con el entorno.
+
+Uno de los ejemplos más conocidos es el experimento de los comentarios positivos y negativos. Varios investigadores comprobaron que, cuando una planta recibe palabras amables y mensajes de gratitud, crece fuerte y saludable. En cambio, cuando se le habla con enojo o se le proyectan mensajes negativos, comienza a marchitarse e incluso puede pudrirse. Este fenómeno, que antes parecía solo anecdótico, hoy se estudia dentro de la interacción entre vibración sonora y respuesta biológica vegetal.
+
+La música también cumple un rol crucial. Estudios recientes muestran que las plantas responden favorablemente a la música clásica y armónica, mostrando tallos más erguidos y hojas más verdes. Sin embargo, cuando se exponen durante largos periodos a frecuencias muy agresivas como el metal pesado, algunas especies tienden a debilitarse y deteriorarse. Lo que para nosotros es un estilo musical, para ellas es una vibración que penetra en sus células y altera sus procesos de crecimiento.
+
+Desde la mirada holística y espiritual, esto no es más que la confirmación de que todo en el universo vibra y se comunica. La frecuencia sonora, la intención de las palabras y la energía proyectada forman un entramado invisible que afecta directamente a la vida vegetal. Las plantas, al igual que nosotros, responden a la energía de la vibración, recordándonos que cada pensamiento y cada sonido tiene un impacto real en el campo vital que compartimos.
+
+</p>
+
+    <h2>🌳 Los árboles pueden compartir
+         nutrientes y enviar señales químicas, funcionan como una unidad múltiple interconectada.</h2>
+    <p>Lo más sorprendente es lo que se ha descubierto en los bosques. Investigaciones recientes 
+        revelan que los árboles funcionan como una unidad múltiple interconectada. A través de sus raíces y de 
+        la llamada "red micorrízica" —una asociación con hongos del suelo— los árboles pueden compartir
+         nutrientes y enviar señales químicas. Si un árbol comienza a marchitarse, sus compañeros liberan
+          sustancias a través de las raíces para fortalecerlo y ayudarlo a sobrevivir. Es como si todo el 
+          bosque respirara y actuara como un solo organismo viviente, una gran familia vegetal unida por lazos 
+          invisibles.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  
+  <!-- Esta línea permite que el diseño se adapte al ancho del dispositivo móvil -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    /* Estilo para hacer que la imagen se vea bien en cualquier pantalla */
+    .imagen-responsiva {
+      width: 100%;        /* La imagen ocupa todo el ancho del contenedor */
+      height: auto;       /* La altura se ajusta automáticamente manteniendo la proporción */
+      max-width: 100%;    /* No se estira más allá de su tamaño original */
+      display: block;     /* Elimina espacios blancos debajo de la imagen */
+      margin: 0 auto;     /* Centra la imagen si hay espacio horizontal */
+      border-radius: 10px; /* Esquinas redondeadas (puedes quitarlo si no lo deseas) */
+    }
+
+    
+  </style>
+</head>
+<body>
+
+  <!-- Imagen que se adapta a móviles -->
+  <img src="https://i.ibb.co/8gzbWkkf/Dise-o-sin-t-tulo-22.jpg" alt="Imagen adaptable" class="imagen-responsiva">
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p>Este conocimiento nos invita a reflexionar: si las plantas responden a nuestra energía y se apoyan entre sí en comunidad, acaso nos están enseñando a vivir de manera más consciente, solidaria y en armonía con el entorno?
+
+En definitiva, la evidencia científica y la visión espiritual convergen en un mismo punto: la naturaleza 
+no está separada de nosotros, sino que es un reflejo de nuestra propia vibración. Cada palabra,
+ cada pensamiento y cada frecuencia sonora son semillas que sembramos no solo en nuestra realidad,
+  sino también en el corazón verde del planeta.</p>
+
+
+          
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h2>📚 Fuentes:</h2>
+    <ul>
+        <li>Masaru Emoto, Mensajes del Agua (experimentos sobre vibración, intención y cristales de agua).</em>.</li>
+        <li>Dorothy Retallack, The Sound of Music and Plants (1973).</li>
+        <li>Suzanne Simard, Universidad de Columbia Británica – investigaciones sobre la red subterránea de comunicación entre árboles.<a></a></li>
+       <l1>Publicaciones de la Revista Nature y Science Daily sobre comunicación vegetal y red micorrízica.<a></a></l1>
+    </ul>
+     <p><strong>Unidad Internacional del Saber y Asociados - 2025</strong></p>
+   </section>
+
+<div class="visitas-fija" id="contadorVisitas">
+    Más de <strong>1.000 personas</strong> han visitado este sitio.
+</div>
+
+<footer>
+    &copy; 2025 Unidad Internacional del Saber y Asociados. Todos los derechos reservados.
+</footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const img = document.getElementById("mainImage");
+        const section = document.querySelector("section");
+        const contador = document.getElementById("contadorVisitas");
+
+        function checkVisibility() {
+            const rectImg = img.getBoundingClientRect();
+            const rectSec = section.getBoundingClientRect();
+            const windowHeight = window.innerHeight;
+
+            if (rectImg.top <= windowHeight) {
+                img.classList.add("visible");
+            }
+            if (rectSec.top <= windowHeight) {
+                section.classList.add("visible");
+                contador.classList.add("visible");
+            }
+        }
+
+        window.addEventListener("scroll", checkVisibility);
+        checkVisibility();
+    });
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
